@@ -22,3 +22,11 @@ class LoginForm(AuthenticationForm):
 
     username = forms.CharField(widget=TextInput())
     password = forms.CharField(widget=PasswordInput())
+
+
+
+class MyRegistrationForm(forms.Form):
+    username = forms.CharField(
+        label='Your Username',
+        help_text='Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.'
+    )

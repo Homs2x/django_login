@@ -65,3 +65,24 @@ def user_logout(request):
 def dashboard(request):
 
     return render(request, 'crm/dashboard.html')
+
+
+def orglist(request):
+
+    return render(request, 'crm/orglist.html')
+
+def locate(request):
+
+    return render(request, 'crm/locate.html')
+
+def donate(request):
+
+    return render(request, 'crm/donate.html')
+
+def feedback(request):
+
+    return render(request, 'crm/feedback.html')
+
+def account(request):
+
+    return render(request, 'crm/account.html')

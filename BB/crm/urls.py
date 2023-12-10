@@ -13,6 +13,16 @@ urlpatterns = [
     path('dashboard', views.dashboard, name="dashboard"),
 
     path('user-logout', views.user_logout, name="user-logout"),
+
+    path('orglist', views.orglist, name="orglist"),
+
+    path('locate', views.locate, name="locate"),
+
+    path('feedback', views.feedback, name="feedback"),
+
+    path('account', views.account, name="account"),
+
+    path('donate', views.donate, name="donate"),
 ]
 
 
